@@ -35,6 +35,6 @@ The resulting photon energy spectra are used to modify the expected SM photon di
 │   │   └── run_card
 │   └── events_mass1.lhe, events_mass2.lhe, events_mass3.lhe
 ├── Analysis/
-│   └── chi2_pvalue_analysis.py
+│   └── chi2_pvalue_analysis.ipynb
 ├── gammaPiZeroExit.txt
 ├── README.md
