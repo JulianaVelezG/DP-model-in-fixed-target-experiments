@@ -1,0 +1,20 @@
+import model ./models/UFOmodelinelasticDM_withHiggsector/inelasticDM_withHiggssector
+define mmm = a h z h3
+import_events decay Fluxes/Pion_Flux.hepmc
+decay pi0 > ~chi2 ~chi1 a
+define darkmatter ~chi2
+add process ~chi2 e- > ~chi1 e- @electron /mmm
+output results/DUNE_mass3
+launch
+Cards/param_card_inelasticHiggs_eta_pion_v2.dat
+set wAp auto
+set flux_norm 1.1e21
+set prod_xsec_in_norm false
+set d_target_detector 57400.0
+set detector_density 1.3954
+set Z_average 18
+set A_average 40
+set parallelepiped True
+set x_side 3050.0
+set y_side 300.0
+set depth 500.0
