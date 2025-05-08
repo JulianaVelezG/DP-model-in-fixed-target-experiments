@@ -1,7 +1,7 @@
 # DP-model-in-fixed-target-experiments
 Simulating DUNE-LBNF and SNS(COHERENT) in Geant4. Analizing DP signals in DUNE-LBNF using data from MadGraph and Geant4.
 
-This repository contains the full simulation and analysis workflow used in my project on a dark matter model involving a dark photon ($A'$). The goal of the project is to evaluate the sensitivity of fixed-target experiments, particularly DUNE-LBNF, to the decay process \( $\pi^0→\gamma$ $A'$).
+This repository contains the full simulation and analysis workflow used in my project on a dark matter model involving a dark photon ($A'$). The goal of the project is to evaluate the sensitivity of fixed-target experiments, particularly DUNE-LBNF, to the decay process  $\pi^0→\gamma$ $A'$.
 
 The Geant4 code simulates the collision of a proton with the DUNE-LBNF and SNS targets, and records information about the simulation outputs. Specifically, it stores data on:
 
