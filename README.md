@@ -32,8 +32,7 @@ The resulting photon energy spectra are used to modify the expected SM photon di
 │       └── run.mac
 ├── MadGraph/
 │   ├── cards/
-│   │   └── run_card
-│   └── events_mass1.lhe, events_mass2.lhe, events_mass3.lhe
+│       └── run_card
 ├── Analysis/
 │   └── chi2_pvalue_analysis.ipynb
 ├── gammaPiZeroExit.txt
